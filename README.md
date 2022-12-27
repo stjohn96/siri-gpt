@@ -14,8 +14,8 @@ To run the project, you will need to have Docker and Docker Compose installed on
     2.  Press F12 to open console.
     3.  Go to Application > Cookies.
     4.  Copy the session token value in `__Secure-next-auth.session-token`.
-5.  Run `docker compose up` to start the project. This will build the necessary Docker images and start the containers.
-6.  Once the containers are running, the API will be exposed on 0.0.0.0:5001.
+5.  Run `docker compose up` to start the project. This will build the necessary Docker images and start the container.
+6.  Once the container is running, the API will be exposed on 0.0.0.0:5001.
 
 ## Configuring Siri/Shortcuts to Use the API
 
@@ -39,3 +39,13 @@ To configure Siri to use the API:
 16.  Save the shortcut.
 
 You can now trigger the shortcut using the prompt "Hey Siri Hey GPT" or whatever you named the shortcut.
+
+![Screenshot](./screenshots/gpt-shortcut.jpg)
+
+## Disclaimers
+
+Please note that this is not an official product of OpenAI and is not affiliated with the company in any way. It is a personal project and any use of it is at the user's own risk. The developer of this project is not responsible for any liabilities or legal issues that may arise from its use.
+
+## Credits
+
+[acheong08](https://github.com/acheong08) - [ChatGPT API](https://github.com/acheong08/ChatGPT)
